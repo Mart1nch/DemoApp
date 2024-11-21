@@ -7,7 +7,7 @@ direct to the root directory(AppDemo/), run below commands in terminal
 
 <img width="547" alt="image" src="https://github.com/user-attachments/assets/0efea893-b748-4b28-ad73-fa0fc93a6bf0">
 
-3. watch the memory use status now like , before next step.
+3. watch the memory used change status before next step.
 4. follow the output and press `i` to run xcodebuild automatically, the output was like below. Just wait and watch the memory used status.
    ```shell
    info Opening app on iOS...
