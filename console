@@ -1,0 +1,73 @@
+info Opening app on iOS...
+info A dev server is already running for this project on port 8081.
+info Found Xcode workspace "DemoApp.xcworkspace"
+info Found booted iPhone 16 Plus
+info Building (using "xcodebuild -workspace DemoApp.xcworkspace -configuration Debug -scheme DemoApp -destination id=43413535-9154-4DE0-9338-D4EEE2618120")
+
+info 💡 Tip: Make sure that you have set up your development environment correctly, by running npx react-native doctor. To read more about doctor command visit: https://github.com/react-native-community/cli/blob/main/packages/cli-doctor/README.md#doctor 
+
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -workspace DemoApp.xcworkspace -configuration Debug -scheme DemoApp -destination id=43413535-9154-4DE0-9338-D4EEE2618120
+
+User defaults from command line:
+    IDEPackageSupportUseBuiltinSCM = YES
+
+Prepare packages
+
+ComputeTargetDependencyGraph
+note: Building targets in dependency order
+note: Target dependency graph (64 targets)
+    Target 'DemoApp' in project 'DemoApp'
+        ➜ Implicit dependency on target 'Pods-DemoApp' in project 'Pods' via file 'libPods-DemoApp.a' in build phase 'Link Binary'
+        ➜ Implicit dependency on target 'DoubleConversion' in project 'Pods' via options '-lDoubleConversion' in build setting 'OTHER_LDFLAGS'
+        ➜ Implicit dependency on target 'RCT-Folly' in project 'Pods' via options '-lRCT-Folly' in build setting 'OTHER_LDFLAGS'
+        ➜ Implicit dependency on target 'RCTDeprecation' in project 'Pods' via options '-lRCTDeprecation' in build setting 'OTHER_LDFLAGS'
+        ➜ Implicit dependency on target 'RCTTypeSafety' in project 'Pods' via options '-lRCTTypeSafety' in build setting 'OTHER_LDFLAGS'
+        ➜ Implicit dependency on target 'RNImageCropPicker' in project 'Pods' via options '-lRNImageCropPicker' in build setting 'OTHER_LDFLAGS'
+        ➜ Implicit dependency on target 'React-Codegen' in project 'Pods' via options '-lReact-Codegen' in build setting 'OTHER_LDFLAGS'
+        ➜ Implicit dependency on target 'React-Core' in project 'Pods' via options '-lReact-Core' in build setting 'OTHER_LDFLAGS'
+        ➜ Implicit dependency on target 'React-CoreModules' in project 'Pods' via options '-lReact-CoreModules' in build setting 'OTHER_LDFLAGS'
+        ➜ Implicit dependency on target 'React-Fabric' in project 'Pods' via options '-lReact-Fabric' in build setting 'OTHER_LDFLAGS'
+        ➜ Implicit dependency on target 'React-FabricImage' in project 'Pods' via options '-lReact-FabricImage' in build setting 'OTHER_LDFLAGS'
+        ➜ Implicit dependency on target 'React-ImageManager' in project 'Pods' via options '-lReact-ImageManager' in build setting 'OTHER_LDFLAGS'
+        ➜ Implicit dependency on target 'React-Mapbuffer' in project 'Pods' via options '-lReact-Mapbuffer' in build setting 'OTHER_LDFLAGS'
+        ➜ Implicit dependency on target 'React-NativeModulesApple' in project 'Pods' via options '-lReact-NativeModulesApple' in build setting 'OTHER_LDFLAGS'
+        ➜ Implicit dependency on target 'React-RCTAnimation' in project 'Pods' via options '-lReact-RCTAnimation' in build setting 'OTHER_LDFLAGS'
+        ➜ Implicit dependency on target 'React-RCTAppDelegate' in project 'Pods' via options '-lReact-RCTAppDelegate' in build setting 'OTHER_LDFLAGS'
+        ➜ Implicit dependency on target 'React-RCTBlob' in project 'Pods' via options '-lReact-RCTBlob' in build setting 'OTHER_LDFLAGS'
+        ➜ Implicit dependency on target 'React-RCTFabric' in project 'Pods' via options '-lReact-RCTFabric' in build setting 'OTHER_LDFLAGS'
+        ➜ Implicit dependency on target 'React-RCTImage' in project 'Pods' via options '-lReact-RCTImage' in build setting 'OTHER_LDFLAGS'
+        ➜ Implicit dependency on target 'React-RCTLinking' in project 'Pods' via options '-lReact-RCTLinking' in build setting 'OTHER_LDFLAGS'
+        ➜ Implicit dependency on target 'React-RCTNetwork' in project 'Pods' via options '-lReact-RCTNetwork' in build setting 'OTHER_LDFLAGS'
+        ➜ Implicit dependency on target 'React-RCTSettings' in project 'Pods' via options '-lReact-RCTSettings' in build setting 'OTHER_LDFLAGS'
+        ➜ Implicit dependency on target 'React-RCTText' in project 'Pods' via options '-lReact-RCTText' in build setting 'OTHER_LDFLAGS'
+        ➜ Implicit dependency on target 'React-RCTVibration' in project 'Pods' via options '-lReact-RCTVibration' in build setting 'OTHER_LDFLAGS'
+        ➜ Implicit dependency on target 'React-RuntimeApple' in project 'Pods' via options '-lReact-RuntimeApple' in build setting 'OTHER_LDFLAGS'
+        ➜ Implicit dependency on target 'React-RuntimeCore' in project 'Pods' via options '-lReact-RuntimeCore' in build setting 'OTHER_LDFLAGS'
+        ➜ Implicit dependency on target 'React-RuntimeHermes' in project 'Pods' via options '-lReact-RuntimeHermes' in build setting 'OTHER_LDFLAGS'
+        ➜ Implicit dependency on target 'React-cxxreact' in project 'Pods' via options '-lReact-cxxreact' in build setting 'OTHER_LDFLAGS'
+        ➜ Implicit dependency on target 'React-debug' in project 'Pods' via options '-lReact-debug' in build setting 'OTHER_LDFLAGS'
+        ➜ Implicit dependency on target 'React-featureflags' in project 'Pods' via options '-lReact-featureflags' in build setting 'OTHER_LDFLAGS'
+        ➜ Implicit dependency on target 'React-graphics' in project 'Pods' via options '-lReact-graphics' in build setting 'OTHER_LDFLAGS'
+        ➜ Implicit dependency on target 'React-hermes' in project 'Pods' via options '-lReact-hermes' in build setting 'OTHER_LDFLAGS'
+        ➜ Implicit dependency on target 'React-jserrorhandler' in project 'Pods' via options '-lReact-jserrorhandler' in build setting 'OTHER_LDFLAGS'
+        ➜ Implicit dependency on target 'React-jsi' in project 'Pods' via options '-lReact-jsi' in build setting 'OTHER_LDFLAGS'
+        ➜ Implicit dependency on target 'React-jsiexecutor' in project 'Pods' via options '-lReact-jsiexecutor' in build setting 'OTHER_LDFLAGS'
+        ➜ Implicit dependency on target 'React-jsinspector' in project 'Pods' via options '-lReact-jsinspector' in build setting 'OTHER_LDFLAGS'
+        ➜ Implicit dependency on target 'React-logger' in project 'Pods' via options '-lReact-logger' in build setting 'OTHER_LDFLAGS'
+        ➜ Implicit dependency on target 'React-nativeconfig' in project 'Pods' via options '-lReact-nativeconfig' in build setting 'OTHER_LDFLAGS'
+        ➜ Implicit dependency on target 'React-perflogger' in project 'Pods' via options '-lReact-perflogger' in build setting 'OTHER_LDFLAGS'
+        ➜ Implicit dependency on target 'React-rendererdebug' in project 'Pods' via options '-lReact-rendererdebug' in build setting 'OTHER_LDFLAGS'
+        ➜ Implicit dependency on target 'React-runtimescheduler' in project 'Pods' via options '-lReact-runtimescheduler' in build setting 'OTHER_LDFLAGS'
+        ➜ Implicit dependency on target 'React-utils' in project 'Pods' via options '-lReact-utils' in build setting 'OTHER_LDFLAGS'
+        ➜ Implicit dependency on target 'ReactCommon' in project 'Pods' via options '-lReactCommon' in build setting 'OTHER_LDFLAGS'
+        ➜ Implicit dependency on target 'SocketRocket' in project 'Pods' via options '-lSocketRocket' in build setting 'OTHER_LDFLAGS'
+        ➜ Implicit dependency on target 'TOCropViewController' in project 'Pods' via options '-lTOCropViewController' in build setting 'OTHER_LDFLAGS'
+        ➜ Implicit dependency on target 'Yoga' in project 'Pods' via options '-lYoga' in build setting 'OTHER_LDFLAGS'
+        ➜ Implicit dependency on target 'fmt' in project 'Pods' via options '-lfmt' in build setting 'OTHER_LDFLAGS'
+        ➜ Implicit dependency on target 'glog' in project 'Pods' via options '-lglog' in build setting 'OTHER_LDFLAGS'
+        ➜ Implicit dependency on target 'react-native-webview' in project 'Pods' via options '-lreact-native-webview' in build setting 'OTHER_LDFLAGS'
+    Target 'Pods-DemoApp' in project 'Pods'
+        ➜ Explicit dependency on target 'DoubleConversion' in project 'Pods'
+        ➜ Explicit dependency on target 'FBLazyVector' in project 'Pods'
+        ➜ Explicit dependency 
